@@ -1,1 +1,1 @@
-# yubo-hibernate-tutorial
+## Hibernate tutorial### Setup{% highlight bash %}mvn archetype:generate git initgit remote add origin url.git{% endhighlight %}
