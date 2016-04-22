@@ -1,1 +1,1 @@
-## Hibernate tutorial### Setup```bashmvn archetype:generate git initgit remote add origin url.git```
+## Hibernate tutorial### Setup```bashmvn archetype:generate git initgit remote add origin url.git# start hsqldb server locallymvn exec:java -Dexec.mainClass="org.hsqldb.Server" -Dexec.args="-database.0 file:target/data/tutorial"# first testmvn exec:java -Dexec.mainClass="org.mountain.tutorial.hibernate.EventManager" -Dexec.args="list"```
