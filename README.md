@@ -1,1 +1,1 @@
-## Hibernate tutorial### Setup{% highlight bash %}mvn archetype:generate git initgit remote add origin url.git{% endhighlight %}
+## Hibernate tutorial### Setup```bashmvn archetype:generate git initgit remote add origin url.git```
